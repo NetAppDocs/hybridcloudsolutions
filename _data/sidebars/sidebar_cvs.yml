@@ -1,42 +1,42 @@
 entries:
   - title: Hybrid Cloud Enablement
-    url: /index.html
+    url: /../index.html
 
   - title: Technology
     entries:
       - title: Cloud Volumes Service
         entries :
             - title: Snapshot in Cloud Volumes Service
-              url: /cloud_volumes_service/snapshot_cloud_volumes.html
+              url: /snapshot_cloud_volumes.html
             - title: Oracle Workload in Cloud Volumes Service
-              url: /cloud_volumes_service/snapshot_cloud_volumes_oracle.html
+              url: /snapshot_cloud_volumes_oracle.html
       - title: Cloud Volumes ONTAP
         entries:
           - title: Snapshot in Cloud Volumes ONTAP
-            url: /cloud_volumes_service/snapshot_cloud_volumes_ONTAP.html
+            url: /snapshot_cloud_volumes_ONTAP.html
       - title: NetApp Private Storage
         entries:
           - title: Snapshot in NPS
-            url: /cloud_volumes_service/snapshot_cloud_volumes_NPS.html
+            url: /snapshot_cloud_volumes_NPS.html
 
   - title: Verticals
     entries:
       - title: EDA
         entries:
           - title: Cloud Volumes Service
-            url: /snapshot_cloud_volumes_eda.html
+            url: /../genomics/snapshot_cloud_volumes_eda.html
           - title: Cloud Volumes ONTAP
-            url: /snapshot_cloud_volumes_eda.html
+            url: /../genomics/snapshot_cloud_volumes_eda.html
           - title: NetApp Private Storage
-            url: /snapshot_cloud_volumes_eda.html
+            url: /../genomics/snapshot_cloud_volumes_eda.html
       - title: HealthCare
         entries:
           - title: Genomics
             entries:
               - title: NetApp PetaGene Whitepaper
-                url: /genomics/NetApp_PetaGene_Whitepaper.html
+                url: /../genomics/NetApp_PetaGene_Whitepaper.html
           - title: Medical Imaging
-            url: /genomics/MedicalImaging.html
+            url: /../genomics/MedicalImaging.html
       - title: Machine Learning
         entries:
           - title: Tensorflow

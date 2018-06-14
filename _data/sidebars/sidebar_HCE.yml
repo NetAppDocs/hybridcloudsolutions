@@ -7,17 +7,17 @@ entries:
       - title: Cloud Volumes Service
         entries :
             - title: Snapshot in Cloud Volumes Service
-              url: /cloud_volumes_service/snapshot_cloud_volumes.html
+              url: /snapshot_cloud_volumes.html
             - title: Oracle Workload in Cloud Volumes Service
-              url: /cloud_volumes_service/snapshot_cloud_volumes_oracle.html
+              url: /snapshot_cloud_volumes_oracle.html
       - title: Cloud Volumes ONTAP
         entries:
           - title: Snapshot in Cloud Volumes ONTAP
-            url: /cloud_volumes_service/snapshot_cloud_volumes_ONTAP.html
+            url: /snapshot_cloud_volumes_ONTAP.html
       - title: NetApp Private Storage
         entries:
           - title: Snapshot in NPS
-            url: /cloud_volumes_service/snapshot_cloud_volumes_NPS.html
+            url: /snapshot_cloud_volumes_NPS.html
 
   - title: Verticals
     entries:
@@ -34,9 +34,9 @@ entries:
           - title: Genomics
             entries:
               - title: NetApp PetaGene Whitepaper
-                url: /genomics/NetApp_PetaGene_Whitepaper.html
+                url: /NetApp_PetaGene_Whitepaper.html
           - title: Medical Imaging
-            url: /genomics/MedicalImaging.html
+            url: /MedicalImaging.html
       - title: Machine Learning
         entries:
           - title: Tensorflow
