@@ -14,13 +14,12 @@ summary: NetApp Cloud Volumes, Not Your Mothers File Service.
 :imagesdir: ./media/
 
 [discrete]
-==== Durability, Availability, and Snapshots
-{empty} +
-@Chad.Morgenstern @Karthik.Chinnathambi
+==== Durability, Availability,Encryption and Snapshots
+[discrete]
+===== Authors: Chad Morgenstern, Karthik Chinnathambi
 
-[.lead]
 If you are thinking about your data in the clouds, consider that NetApp's Cloud Volumes Service is about more than just NFS or SMB.  With the Cloud Volumes Service, you can rest assured that your data is durable, encrypted, and highly available.  But what about protection from user errors, wouldn't you love the ability to roll back time to undo choices you may have made and wish you hadn't?  Yeah, we got you covered there too with NetApp Cloud Volume Service's volume Snapshot capability.
-
+[discrete]
 == Durability
 Your data is protected not just against multiple drive failures, but against numerous type of disk errors that could otherwise affect not just your data durability but your data integrity as well.  No more worries that your data is going to disappear.
 
@@ -37,17 +36,17 @@ As NetApp's Cloud Volume Service for AWS sits centrally in relation to each of t
 == The Undo Button
 Snapshots act as logical backups and are as such point-in-time representations of your data.  The creation of Snapshots may be scheduled or taken manually both within the Cloud Volumes Portal.
 
-image::create_snapshot.png[]
+image::create_snapshot.png[align="center"]
 At the time of this writing, and the Cloud Volume Service is evolving rapidly and as such I can tell you that API support for Snapshot creation is coming.
 
 NetApp Cloud Volume Snapshots are fast, plentiful and non-disruptive.  A NetApp Snapshot simply manipulates block pointers, creating a “frozen” read-only view of a volume that lets applications access older versions of files, directory hierarchies without special programming. Because actual data blocks aren’t copied, Snapshot copies are extremely efficient both in the time needed to create them and in storage space. A Cloud Volume Snapshot copy takes only a few seconds to create—typically less than one second, regardless of the size of the volume or the level of activity within the environment.
 
-image::snapshot_example.png[]
+image::snapshot_example.png[align="center"]
 
 A NetApp Cloud Volume Snapshot copy incurs no performance overhead; users can comfortably store up to 255 Snapshot copies per volume, all of which are accessible as read-only and online versions of the data.  Read-only via the ".snapshot" directory located at the root of the filesystem and online from a cloned volume today and in-place restore in the near future.
 [discrete]
 == NetApp’s Snapshot comparison
-image::comparision.png[]
+image::comparision.png[align="center"]
 
 [discrete]
 == About NetApp

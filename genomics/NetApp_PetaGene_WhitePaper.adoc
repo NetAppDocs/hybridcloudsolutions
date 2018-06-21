@@ -70,17 +70,7 @@ At a high level, the overall work flow is as such:
 7.  Resulting datasets may be replicated back to the origin data center as desired using either CloudSync or SnapMirror depending on the cloud solution.
 8.  Aged files may be archived to object storage either in the public cloud [AWS S3, Azure Blob, or a Storage Grid Webscale target] or on premises using StorageGRID Webscale. NetApp CloudSync or FabricPool are recommended to handle the archival process.
 
-== Control, Protection and Efficiency with Cloud Volumes ONTAP
 
-NetApp Cloud Volumes ONTAP delivers enterprise control, protection, and efficiency to your data with the flexibility of the cloud. Cloud Volumes ONTAP, a software-defined data management service built on NetApp’s ONTAP 9 storage operating system, provides a superior universal storage platform that addresses most cloud data needs. Having the same storage operating system in the cloud and on premises delivers the value of a Data Fabric without having to train IT staff in all-new methods to manage data. The SnapMirror features of ONTAP offer a bandwidth efficient data replication and transfer mechanism between clouds and to or from a datacenter.
-
-Cloud Volumes ONTAP provides a data storage solution that fits many different customer requirements –from disaster recovery, development, and test environments to critical applications that require highly available non-disruptive operation, such as production business applications and file services using NFS, SMB, and iSCSI. Setup and management of the Cloud Volumes ONTAP environment is simple and intuitive with NetApp OnCommand Cloud Manager web interface.
-
-=== Figure 1: Cloud Volumes ONTAP reference design
-
-image:Cloud_Volumes_ONTAP.png[]
-
-:bl: pass:[ +]
 
 == Speed, Scale and Simplicity with Cloud Volumes Service
 
@@ -88,9 +78,21 @@ NetApp Cloud Volumes Service is a cloud-native file storage service based on pro
 
 For simplified replication into and out of NetApp Cloud Volumes, CloudSync is an intuitive replication and synchronization service. This software-as-a-service (SaaS) offering enables customers to transfer and synchronize data between source and destination of any type or formats, in the cloud or on premises. CloudSync supports NAS data (NFS and SMB), EFS, Amazon S3 and NetApp StorageGRID Webscale Appliance.
 
-=== Figure 2: Cloud Volumes Service reference design
+=== Figure 1: Cloud Volumes Service reference design
 
-image:Cloud_Volumes_Service.png[]
+image:Cloud_Volumes_Service.png[align="center"]
+
+:bl: pass:[ +]
+
+== Control, Protection and Efficiency with Cloud Volumes ONTAP
+
+NetApp Cloud Volumes ONTAP delivers enterprise control, protection, and efficiency to your data with the flexibility of the cloud. Cloud Volumes ONTAP, a software-defined data management service built on NetApp’s ONTAP 9 storage operating system, provides a superior universal storage platform that addresses most cloud data needs. Having the same storage operating system in the cloud and on premises delivers the value of a Data Fabric without having to train IT staff in all-new methods to manage data. The SnapMirror features of ONTAP offer a bandwidth efficient data replication and transfer mechanism between clouds and to or from a datacenter.
+
+Cloud Volumes ONTAP provides a data storage solution that fits many different customer requirements –from disaster recovery, development, and test environments to critical applications that require highly available non-disruptive operation, such as production business applications and file services using NFS, SMB, and iSCSI. Setup and management of the Cloud Volumes ONTAP environment is simple and intuitive with NetApp OnCommand Cloud Manager web interface.
+
+=== Figure 2: Cloud Volumes ONTAP reference design
+
+image:Cloud_Volumes_ONTAP.png[align="center"]
 
 :bl: pass:[ +]
 
@@ -102,7 +104,7 @@ With NPS, your NetApp storage is housed in co-located cloud-connected data cente
 
 === Figure 3: NetApp Private Storage (NPS) design
 
-image:NPS.png[]
+image:NPS.png[align="center"]
 
 :bl: pass:[ +]
 

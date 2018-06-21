@@ -1,76 +1,34 @@
 entries:
-  - title: Hybrid Cloud Enablement
+  - title: Hybrid Cloud Solutions
     url: /../index.html
 
   - title: Technology
     entries:
       - title: Cloud Volumes Service
         entries :
-            - title: Snapshot in Cloud Volumes Service
+            - title: Durability, Availability,Encryption and Snapshots
               url: /snapshot_cloud_volumes.html
-            - title: Oracle Workload in Cloud Volumes Service
-              url: /snapshot_cloud_volumes_oracle.html
       - title: Cloud Volumes ONTAP
         entries:
-          - title: Snapshot in Cloud Volumes ONTAP
-            url: /snapshot_cloud_volumes_ONTAP.html
+          - title: NetApp Cloud Volumes ONTAP And Enhanced Networking Support
+            url: /../cloud_volumes_ontap/networking_cloud_volumes_ontap.html
       - title: NetApp Private Storage
         entries:
-          - title: Snapshot in NPS
-            url: /snapshot_cloud_volumes_NPS.html
+          - title: GDPR and Hybrid Cloud A More Perfect Union
+            url: /../NPS/gdpr_and_hybrid_cloud.html
 
   - title: Verticals
     entries:
       - title: EDA
-        entries:
-          - title: Cloud Volumes Service
-            url: /../genomics/snapshot_cloud_volumes_eda.html
-          - title: Cloud Volumes ONTAP
-            url: /../genomics/snapshot_cloud_volumes_eda.html
-          - title: NetApp Private Storage
-            url: /../genomics/snapshot_cloud_volumes_eda.html
       - title: HealthCare
         entries:
           - title: Genomics
             entries:
               - title: NetApp PetaGene Whitepaper
                 url: /../genomics/NetApp_PetaGene_Whitepaper.html
-          - title: Medical Imaging
-            url: /../genomics/MedicalImaging.html
       - title: Machine Learning
-        entries:
-          - title: Tensorflow
-            url: /tensorflow.html
-          - title: Keras
-            url: /keras.html
-          - title: Kuda
-            url: /kuda.html
+
   - title: Applicatons
     entries:
-      - title: Buisness Applications
-        entries:
-          - title: Oracle
-            entries :
-              - title: Oracle For Cloud Volumes Service
-                url: /snapshot_cloud_volumes_oracle.html
-              - title: Oracle For Cloud Volumes ONTAP
-                url: /snapshot_cloud_volumes_oracle_2.html
-
-          - title: MS SQL Server
-            entries:
-              - title: MS SQL Server in the public cloud (NPS)
-                url: /ms_sql_server_1.html
-              - title: MS SQL Server in the public cloud (ONTAP Cloud)
-                url: /ms_sql_server_2.html
-              - title: MS SQL Server in the public cloud (Cloud Volumes)
-                url: /ms_sql_server_3.html
+      - title: Business Applications
       - title: Enterprise Applications
-        entries:
-          - title: MS SQL Server
-            entries:
-            - title: MS SQL Server in the public cloud (NPS)
-              url: /ms_sql_server_1.html
-            - title: MS SQL Server in the public cloud (ONTAP Cloud)
-              url: /ms_sql_server_2.html
-            - title: MS SQL Server in the public cloud (Cloud Volumes)
-              url: /ms_sql_server_3.html
