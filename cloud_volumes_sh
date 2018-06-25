@@ -1,5 +1,0 @@
-#!/bin/bash
-cp ../jekyll/build.sh ./
-JEKYLL_BASEURL="\/hybridcloudsolutions";
-JEKYLL_PORT="7000";
-source build.sh $1
