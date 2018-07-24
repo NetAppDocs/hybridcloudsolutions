@@ -44,12 +44,16 @@
   <!-- NetApp CSS controls the technical content -->
   <link rel='stylesheet' href='/hybridcloudsolutions/us-en/css/netapp.css' type='text/css'>
 
+  
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
   <!-- Used to import Promise for IE. Required for SearchKit -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script>
   
     <script src='/hybridcloudsolutions/us-en/js/na-search.js'></script>
+  
+
   
 
   <script src='/hybridcloudsolutions/us-en/js/clouddocs.js'></script>
@@ -538,7 +542,7 @@
 <div class="paragraph">
 <p>Snapshots act as logical backups and are as such point-in-time representations of your data.  The creation of Snapshots may be scheduled or taken manually both within the Cloud Volumes Portal.</p>
 </div>
-<div class="imageblock" style="text-align: center">
+<div class="imageblock text-center">
 <div class="content">
 <img src="./media/create_snapshot.png" alt="create snapshot">
 </div>
@@ -549,7 +553,7 @@
 <div class="paragraph">
 <p>NetApp Cloud Volume Snapshots are fast, plentiful and non-disruptive.  A NetApp Snapshot simply manipulates block pointers, creating a “frozen” read-only view of a volume that lets applications access older versions of files and directory hierarchies without special programming. Because the actual data blocks aren’t copied, Snapshot copies are extremely efficient both in the time needed to create them and in storage space. A Cloud Volume Snapshot copy takes only a few seconds to create—typically less than one second, regardless of the size of the volume or the level of activity within the environment.</p>
 </div>
-<div class="imageblock" style="text-align: center">
+<div class="imageblock text-center">
 <div class="content">
 <img src="./media/snapshot_example.png" alt="snapshot example">
 </div>
@@ -558,7 +562,7 @@
 <p>A NetApp Cloud Volume Snapshot copy incurs no performance overhead; users can comfortably store up to 255 Snapshot copies per volume, all of which are accessible as read-only and online versions of the data.  Read-only via the ".snapshot" directory located at the root of the filesystem and online from a cloned volume today and in-place restore in the near future.  So what about user experience when working with the cloned volume?  Because of the pointer system, use of the cloned volume should provide a comparable experience to the use of the parent volume itself.</p>
 </div>
 <h2 id="netapp-snapshot-comparison" class="discrete">NetApp Snapshot comparison</h2>
-<div class="imageblock" style="text-align: center">
+<div class="imageblock text-center">
 <div class="content">
 <img src="./media/comparision.png" alt="comparision">
 </div>
@@ -571,6 +575,9 @@
         </article>
         <!-- Page Container -->
       </div>
+
+      
+
     </div>
   </div>
 </div>
@@ -584,10 +591,13 @@
           <div class="n-container">
             <div class="n-footer__bottom-left">
               <div class="n-footer__copyright">
-                  <a href="//www.netapp.com/us/legal/copyright.aspx" class="n-footer__copyright-link">© 1994-2018 NetApp, Inc. All rights reserved.</a>
+                  <a href="//www.netapp.com/us/legal/copyright.aspx" class="n-footer__copyright-link">© 2018 NetApp, Inc.</a>
               </div>
               <div class="n-footer__copyright">
-                <a href="//www.netapp.com/us/legal/netapptmlist.aspx" class="n-footer__copyright-link">Trademarks</a>
+                <a href="https://library.netapp.com/ecm/ecm_download_file/ECMLP2848669" class="n-footer__copyright-link">Notice</a>
+              </div>
+              <div class="n-footer__copyright">
+                <a href="//www.netapp.com/us/legal/index.aspx" class="n-footer__copyright-link">Legal</a>
               </div>
               <div class="n-footer__social-links">
                 <ul class="n-footer__social-link-list">
