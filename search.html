@@ -54,11 +54,13 @@
 
   
 
+  <link rel='stylesheet' href='/hybridcloudsolutions/css/prism.css' type='text/css'>
+  <link rel='stylesheet' href='/hybridcloudsolutions/css/prism-netapp.css' type='text/css'>
+
   <script src='/hybridcloudsolutions/js/clouddocs.js'></script>
   <script src='/hybridcloudsolutions/js/s_code_impl.js'></script>
   <script src='/hybridcloudsolutions/js/jquery.navgoco.min.js'></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
   <script src='/hybridcloudsolutions/js/toc.js'></script>
   <script src='/hybridcloudsolutions/js/customscripts.js'></script>
 
@@ -235,7 +237,6 @@
                 <li class="n-menu__list-item n-menu__list-item--level-1">
                   <a href="/hybridcloudsolutions/us-en/" class="n-menu__header-text">English</a>
                 </li>
-                
               </ul>
             </li>
           </ul>
@@ -624,14 +625,31 @@
     <script type="text/javascript" src="/hybridcloudsolutions/js/responsive.js"></script>
 
     <!-- Elasticsearch JS -->
-    
+    <script type="text/javascript" src='/hybridcloudsolutions/js/bundle.js'></script>
+
+    <!-- Syntax Highlighting -->
+    <script type="text/javascript" src='/hybridcloudsolutions/js/prism.js'></script>
+    <script type="text/javascript" src='/hybridcloudsolutions/js/prism-curl.js'></script>
+
   </body>
 
   
   <script>
       if(hasParameter(window.location.search,'q')) {
-        var queryString = decodeURI(params.get('q'));
+        var queryString = decodeURI(getParameter(window.location.search, 'q'));
         document.getElementsByClassName("sk-search-box__text")[0].setAttribute("value", queryString);
+      }
+
+      function getParameter(searchString,param) {
+        var params = searchString.split('?&');
+        for(var i=0;i<params.length;i++) {
+          var paramIndex = params[i].indexOf(param+"=");
+          if(paramIndex != -1) {
+            return params[i].substring(paramIndex+param.length+1);
+          }
+        }
+
+        return "";
       }
 
       function hasParameter(searchString,param) {
