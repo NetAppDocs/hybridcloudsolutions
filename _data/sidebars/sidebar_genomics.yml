@@ -1,3 +1,4 @@
+prefix: genomics
 entries:
   - title: Hybrid Cloud Solutions
     url: /../index.html
@@ -29,14 +30,12 @@ entries:
 
   - title: Industries
     entries:
-      - title: EDA
       - title: HealthCare
         entries:
           - title: Genomics
             entries:
               - title: NetApp PetaGene Whitepaper
                 url: /NetApp_PetaGene_Whitepaper.html
-      - title: Machine Learning
 
   - title: Business Applications
     entries:
