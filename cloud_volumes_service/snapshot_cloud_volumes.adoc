@@ -1,15 +1,13 @@
 ---
-sidebar: sidebar_cvs
+sidebar: sidebar
 permalink: cloud_volumes_service/snapshot_cloud_volumes.html
 keywords: Cloud Volumes Service, Durability, Availability, Snapshots
 summary: NetApp Cloud Volumes, Not Your Mothers File Service.
 ---
 
 = NetApp Cloud Volumes, Not Your Mothers File Service
-:toc: macro
 :hardbreaks:
 :nofooter:
-:icons: font
 :linkattrs:
 :imagesdir: ./media/
 

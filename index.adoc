@@ -7,7 +7,6 @@ summary: Welcome to the documentation portal for Hybrid Cloud Solutions.
 = Hybrid Cloud Solutions
 :hardbreaks:
 :nofooter:
-:icons: font
 :linkattrs:
 :imagesdir: ./media/
 :keywords: Hybrid Cloud Solutions, Genomics, documentation, help

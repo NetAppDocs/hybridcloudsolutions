@@ -1,15 +1,13 @@
 ---
-sidebar: sidebar_cvo
+sidebar: sidebar
 permalink: cloud_volumes_ontap/networking_cloud_volumes_ontap.html
 keywords: Cloud Volumes ONTAP, Networking, Support, ONTAP Cloud
 summary: NetApp Cloud Volumes Service Improved Performance Through Enhanced Networking Support
 ---
 
 = NetApp Cloud Volumes ONTAP, A.K.A. ONTAP Cloud
-:toc: macro
 :hardbreaks:
 :nofooter:
-:icons: font
 :linkattrs:
 :imagesdir: ./media/
 
