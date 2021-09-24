@@ -1,15 +1,13 @@
 ---
-sidebar: sidebar_genomics
+sidebar: sidebar
 permalink: genomics/NetApp_PetaGene_Whitepaper.html
 keywords: NetApp, PetaGene, Durability, Reference Architecture
 summary: Accelerating the Genomics Revolution
 ---
 
 = NetApp And PetaGene: Accelerating the Genomics Revolution
-:toc: macro
 :hardbreaks:
 :nofooter:
-:icons: font
 :linkattrs:
 :imagesdir: ./media/
 

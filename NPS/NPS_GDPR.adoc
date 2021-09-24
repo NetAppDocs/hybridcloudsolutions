@@ -1,15 +1,13 @@
 ---
-sidebar: sidebar_NPS
+sidebar: sidebar
 permalink: NPS/gdpr_and_hybrid_cloud.html
 keywords: GDPR, Hybrid Cloud, Cloud
 summary: GDPR and Hybrid Cloud, A More Perfect Union
 ---
 
 = GDPR and Hybrid Cloud: A More Perfect Union
-:toc: macro
 :hardbreaks:
 :nofooter:
-:icons: font
 :linkattrs:
 :imagesdir: ./media/
 
