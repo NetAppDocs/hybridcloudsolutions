@@ -1,3 +1,9 @@
+settings:
+  name: Hybrid Cloud Solutions
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
 sidebar:
   entries:
     - title: Hybrid Cloud Solutions
