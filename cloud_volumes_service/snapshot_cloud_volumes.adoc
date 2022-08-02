@@ -11,28 +11,25 @@ summary: NetApp Cloud Volumes, Not Your Mothers File Service.
 :linkattrs:
 :imagesdir: ./media/
 
-[discrete]
-==== Durability, Availability, Encryption and Snapshots
-[discrete]
-===== Authors: Chad Morgenstern, Karthik Chinnathambi
+.Authors: Chad Morgenstern, Karthik Chinnathambi
 
 If you are thinking about your data in the clouds, consider that NetApp Cloud Volumes Service is about more than just NFS or SMB.  With the Cloud Volumes Service, you can rest assured that your data is durable, encrypted, and highly available.  But what about protection from user errors, wouldn't you love the ability to roll back time to undo choices you may have made and wish you hadn't?  Yeah, we got you covered there too with NetApp Cloud Volume Service's Snapshot capability.
-[discrete]
-== Durability
+
+== Durability, Availability, Encryption and Snapshots
+
+=== Durability
 Your data is protected not just against multiple drive failures, but against numerous type of disk errors that could otherwise affect not just your data durability but your data integrity as well.  No more worries that your data is going to disappear.
 
-[discrete]
-== Encryption
+
+=== Encryption
 Regarding encryption, NetApp Cloud Volume service utilizes Storage Encryption to provide full-disk encryption without compromising storage application performance.  This single-source solution can increase overall compliance with industry and government regulations without compromising your user experience.
 
-[discrete]
-== Availability
+=== Availability
 The Cloud Volumes Service is built upon best of industry, proven rock-solid enterprise class hardware and software all but ensuring uptime – availability.  Each storage node has many paths to its own Solid State Drives protecting against path failure as well as access to a partner storage node SSDs as well.  As each storage node has access to its partners disks, continued productivity in the event of controller failure is ensured.  You are protected against network failures by redundant network ports and paths all the way up the stack across the cloud connections.
 
 As NetApp Cloud Volume Service for AWS sits centrally in relation to each of the availability zones within an AWS region, the service is immune to availability zone outages.  Access your data from any availability zone without the need to replicate content – the user experience from AZ to AZ is expected to be the same and if not, well, its outside of our control – clouds will be clouds after all.
 
-[discrete]
-== The Undo Button
+=== The Undo Button
 Snapshots act as logical backups and are as such point-in-time representations of your data.  The creation of Snapshots may be scheduled or taken manually both within the Cloud Volumes Portal.
 
 image::create_snapshot.png[align="center"]
@@ -44,10 +41,8 @@ image::snapshot_example.png[align="center"]
 
 A NetApp Cloud Volume Snapshot copy incurs no performance overhead; users can comfortably store up to 255 Snapshot copies per volume, all of which are accessible as read-only and online versions of the data.  Read-only via the ".snapshot" directory located at the root of the filesystem and online from a cloned volume today and in-place restore in the near future.  So what about user experience when working with the cloned volume?  Because of the pointer system, use of the cloned volume should provide a comparable experience to the use of the parent volume itself.
 
-[discrete]
 == NetApp Snapshot comparison
 image::comparision.png[align="center"]
 
-[discrete]
 == About NetApp
 NetApp is the data authority for hybrid cloud. We provide a full range of hybrid cloud data services that simplify management of data across cloud and on-premises environments to accelerate digital transformation. We empower global organizations to unleash the full potential of their data to expand customer touchpoints, foster greater innovation and optimize operations. For more information, visit: www.netapp.com #DataDriven

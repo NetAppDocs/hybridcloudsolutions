@@ -72,7 +72,6 @@ image::oracle_slob_perf_test_aws.png[align="center", width = "800px"]
 
 
 * Mount options
-[discrete]
 [cols="^,^",options="header", .center]
 |=======================================================================================================
 |*File Type*|*Mount Options*
