@@ -62,4 +62,4 @@ The following parameters were placed in the MySQL /etc/my.cnf configuration file
 ** innodb_max_dirty_pages_pct=0
 
 == About NetApp
-NetApp is the data authority for hybrid cloud. We provide a full range of hybrid cloud data services that simplify management of data across cloud and on-premises environments to accelerate digital transformation. NetApp empowers global organizations to unleash the full potential of their data to expand customer touchpoints, foster greater innovation and optimize operations. For more information, visit: www.netapp.com #DataDriven
+NetApp is the data authority for hybrid cloud. We provide a full range of hybrid cloud data services that simplify management of data across cloud and on-premises environments to accelerate digital transformation. NetApp empowers global organizations to unleash the full potential of their data to expand customer touchpoints, foster greater innovation and optimize operations. For more information, visit https://www.netapp.com/#DataDriven
