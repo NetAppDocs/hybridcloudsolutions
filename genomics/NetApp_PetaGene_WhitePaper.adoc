@@ -13,9 +13,9 @@ summary: Accelerating the Genomics Revolution
 
 .Authors: Karthik Chinnathambi, Mary Hayes, David LaBrosse, Chad Morgenstern, Justin Spears
 
-== Abstract
-
 The objective of this document is to explain how NetApp and PetaGene ‘technology’ helps to accelerate genomic data analysis and bio medical discoveries. It explores how our cloud and on-premise based solutions can simplify genomic research collaboration, reduce research IT cost, and shorten genomic analysis time.
+
+== Abstract
 
 The goal is to achieve true “precision medicine” where doctors and other care givers can provide customized treatments and medications based upon an individual’s unique genetic profile. While the ‘old’ healthcare treatment model of "one-size-fits-all" is still practiced, many clinicians believe that "personalized" care will become the standard around the world.
 
