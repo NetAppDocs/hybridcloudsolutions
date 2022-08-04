@@ -11,6 +11,8 @@ summary: A review of Oracle performance as it pertains to the NetApp Cloud Volum
 :linkattrs:
 :imagesdir: ./media/
 
+== NetApp Cloud Volumes Service For AWS
+A review of Oracle performance as it pertains to the NetApp Cloud Volumes Service in AWS.
 
 .Authors: Ali Aiello, Joe Carter, Chad Morgenstern
 
@@ -19,9 +21,6 @@ If you are thinking about your data in the clouds, consider that the NetApp Clou
 Please see the blog link:snapshot_cloud_volumes.html[NetApp Cloud Volumes, Not Your Mothers File Service] for details regarding how NetApp Cloud Volumes approaches durability, encryption, and availability as well as some really nice details regarding the Cloud Volumes snapshot technology.
 
 The remainder of blog focuses on Oracle performance. Oracle is especially well suited for inclusion in the NetApp Cloud Volumes Service. Beyond the fact that your data is protected by 8 nines of durability and is accessible across all the availability zones within a given region, Oracle's Direct NFS client seems almost purpose built for Amazon's AWS architecture. More on that later.
-
-== NetApp Cloud Volumes Service For AWS
-A review of Oracle performance as it pertains to the NetApp Cloud Volumes Service in AWS.
 
 
 == Performance
