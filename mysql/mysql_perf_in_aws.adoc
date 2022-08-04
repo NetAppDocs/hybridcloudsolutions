@@ -11,8 +11,6 @@ summary: A review of MySQL performance as it pertains to the NetApp Cloud Volume
 :linkattrs:
 :imagesdir: ./media/
 
-== NetApp Cloud Volumes Service For AWS
-A review of MySQL performance as it pertains to the NetApp Cloud Volumes Service in AWS.
 
 .Authors: Ali Aiello, Chad Morgenstern, Ron Pratt
 
@@ -20,9 +18,11 @@ Are looking for consistently good performance for your MySQL database - I mean, 
 
 Please see the blog https://docs.netapp.com/us-en/hybridcloudsolutions/cloud_volumes_service/snapshot_cloud_volumes.html[NetApp Cloud Volumes, Not Your Mothers File Service] for details regarding how NetApp Cloud Volumes approaches durability, encryption, and availability as well as some really nice details regarding the Cloud Volumes snapshot technology.
 
-
-
 The remainder of this blog focuses on MySQL performance.
+
+== NetApp Cloud Volumes Service For AWS
+A review of MySQL performance as it pertains to the NetApp Cloud Volumes Service in AWS.
+
 
 == Performance
 When performing evaluations of database workloads, always keep in mind the impact of server memory.  Ideally queries find their data resident therein as latency from memory is always going to be orders of magnitude lower than any “disk” query.  What does this mean for you?  While storage latency matters, memory hit percentage matters more.  When database administrators say that they need a latency of X, keep in mind what they are talking about.

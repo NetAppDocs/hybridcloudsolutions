@@ -12,9 +12,6 @@ summary: A review of Oracle performance as it pertains to the NetApp Cloud Volum
 :imagesdir: ./media/
 
 
-== NetApp Cloud Volumes Service For AWS
-A review of Oracle performance as it pertains to the NetApp Cloud Volumes Service in AWS.
-
 .Authors: Ali Aiello, Joe Carter, Chad Morgenstern
 
 If you are thinking about your data in the clouds, consider that the NetApp Cloud Volumes Service is about more than just NFS or SMB. With the NetApp Cloud Volumes Service, you can rest assured that your data is durable, encrypted, highly available and performant.
@@ -23,6 +20,10 @@ Please see the blog https://docs.netapp.com/us-en/hybridcloudsolutions/cloud_vol
 
 
 The remainder of blog focuses on Oracle performance. Oracle is especially well suited for inclusion in the NetApp Cloud Volumes Service. Beyond the fact that your data is protected by 8 nines of durability and is accessible across all the availability zones within a given region, Oracle's Direct NFS client seems almost purpose built for Amazon's AWS architecture. More on that later.
+
+== NetApp Cloud Volumes Service For AWS
+A review of Oracle performance as it pertains to the NetApp Cloud Volumes Service in AWS.
+
 
 == Performance
 When performing evaluations of database workloads, always keep in mind the impact of server memory. Ideally queries find their data resident therein as latency from memory is always going to be orders of magnitude lower than any “disk” query. What does this mean for you? While storage latency matters, memory hit percentage matters more. When database administrators say that they need a latency of X, keep in mind what they are talking about.
