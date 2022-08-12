@@ -11,15 +11,15 @@ summary: Accelerating the Genomics Revolution
 :linkattrs:
 :imagesdir: ./media/
 
-===== Authors: Karthik Chinnathambi, Mary Hayes, David LaBrosse, Chad Morgenstern, Justin Spears
-
-= Abstract
+.Authors: Karthik Chinnathambi, Mary Hayes, David LaBrosse, Chad Morgenstern, Justin Spears
 
 The objective of this document is to explain how NetApp and PetaGene ‘technology’ helps to accelerate genomic data analysis and bio medical discoveries. It explores how our cloud and on-premise based solutions can simplify genomic research collaboration, reduce research IT cost, and shorten genomic analysis time.
 
+== Abstract
+
 The goal is to achieve true “precision medicine” where doctors and other care givers can provide customized treatments and medications based upon an individual’s unique genetic profile. While the ‘old’ healthcare treatment model of "one-size-fits-all" is still practiced, many clinicians believe that "personalized" care will become the standard around the world.
 
-= Benefits Summary
+== Benefits Summary
 
 Below is a brief list of the benefits which the NetApp and PetaGene collaboration brings to genomic researchers and bio medical clinicians. We are proud to provide technology and tools which can accelerate discoveries and can improve patient care.
 
@@ -30,7 +30,7 @@ Below is a brief list of the benefits which the NetApp and PetaGene collaboratio
 * *[underline]#Interoperability of Files without Decompression#* --- Another benefit is that PetaSuite allows researchers to retain interoperability of existing workflows and formats. Specifically, PetaSuite software allows researchers and clinicians to continue using FASTQ and BAM file representations in their existing tools and pipelines, without needing to decompress first.
 * *[underline]#Reduce Operational Costs via Data Fabric - Life Cycle Management#* --- PetaGene’s software also helps to decrease research operations costs as it literally shrinks the amount of data which needs to be managed at different stages of its life cycle. Not only do the smaller genomic files enable more efficient data transfers, but they also accelerate data tiering. For example, some research data may need to be archived for short-term (or long-term) access by genomic researchers. Decreasing the size of the files via PetaSuite, PetaGene’s compression software, can save costs and time --- no matter if the data is in a cloud or on-premise. The NetApp Data Fabric model allows researchers to seamlessly migrate genomic data --- where it’s needed --- when it’s needed locally or globally.
 
-= Introduction
+== Introduction
 
 Scientists and bioinformaticians have long sought ways to reduce the size of the large genomic datasets by using a combination of data compression and reduction techniques. In the past, raw sequencer output had often been stored for extended periods, while bioinformaticians carried out the complex tasks needed in the assembly and alignment of the sequencing data. With these steps complete, the data could be used in variant calling and interpretation which are the vital steps in understanding gene expression and disease.
 
@@ -38,7 +38,7 @@ Today this process is highly automated and has been greatly accelerated through 
 
 We are now entering the world of personalized or precision medicine. Faster sequencing and more compact datasets have increased the number of individual sequences that can be performed. Individual patient genomes and even their individual diseases, typically cancers, can be sequenced (tumors can and do have their own genetic makeup that can differ from that of the patient). This brings about great hope and opportunity for new insights, while at the same time increasing the pressure on data capacity.
 
-= Amplify Storage Efficiency
+== Amplify Storage Efficiency
 
 PetaGene’s software addresses the challenges caused by growing volumes of genomics data. PetaSuite is a set of scalable complementary software tools that significantly reduce the size and cost of NGS data for storage and transfer. It achieves up to 5x reduction _(as per NetApp testing)_ in both storage costs and data transfer times compared to BAM and gzipped FASTQ files. PetaSuite transparently integrates with existing storage infrastructure and bioinformatics pipelines, while PetaLink provides a powerful virtual file access system. PetaLink produces a high performance virtual file view of the compressed file. This virtual file can then be transparently used just like the original file by Linux toolchains, pipelines and genome browsers.
 
@@ -53,7 +53,7 @@ PetaGene’s software addresses the challenges caused by growing volumes of geno
 [.text-center]
 _Tested on 70 Genomic Data files_
 
-= Increase Data Mobility
+== Increase Data Mobility
 
 NetApp SnapMirror and CloudSync make it easy to move genomic data across various cloud environments and make it readily available where it is needed. This capability is further enhanced with PetaGene's unique data compression technique. Three reference designs can be leveraged to efficiently store and access genomic data, improving performance and reducing cost.
 
@@ -76,7 +76,7 @@ NetApp Cloud Volumes Service is a cloud-native file storage service based on pro
 
 For simplified replication into and out of NetApp Cloud Volumes, CloudSync is an intuitive replication and synchronization service. This software-as-a-service (SaaS) offering enables customers to transfer and synchronize data between source and destination of any type or formats, in the cloud or on premises. CloudSync supports NAS data (NFS and SMB), EFS, Amazon S3 and NetApp StorageGRID Webscale Appliance.
 
-=== Figure 1: Cloud Volumes Service reference design
+.Figure 1: Cloud Volumes Service reference design
 
 image:Cloud_Volumes_Service.png[align="center"]
 
@@ -88,7 +88,7 @@ NetApp Cloud Volumes ONTAP delivers enterprise control, protection, and efficien
 
 Cloud Volumes ONTAP provides a data storage solution that fits many different customer requirements –from disaster recovery, development, and test environments to critical applications that require highly available non-disruptive operation, such as production business applications and file services using NFS, SMB, and iSCSI. Setup and management of the Cloud Volumes ONTAP environment is simple and intuitive with NetApp OnCommand Cloud Manager web interface.
 
-=== Figure 2: Cloud Volumes ONTAP reference design
+.Figure 2: Cloud Volumes ONTAP reference design
 
 image:Cloud_Volumes_ONTAP.png[align="center"]
 
@@ -100,7 +100,7 @@ NetApp Private Storage (NPS) is a cloud-connected storage solution that puts dat
 
 With NPS, your NetApp storage is housed in co-located cloud-connected data centers, next to major networks and in close proximity to all major clouds. Establishing secure, dedicated, high-speed connections to all those clouds is quick and easy, with the added advantage of enhanced performance and reduced cost by bypassing the internet. NetApp makes it easy to move data between clouds and any NetApp data management infrastructure, including public, private, and hybrid clouds. SnapMirror technology provides support for applications to fail over to a secondary system and continue operating, as well as the capability to fail back to the primary location later.
 
-=== Figure 3: NetApp Private Storage (NPS) design
+.Figure 3: NetApp Private Storage (NPS) design
 
 image:NPS.png[align="center"]
 
@@ -121,8 +121,8 @@ image:NPS.png[align="center"]
 |*Storage Tiering* |X |X |X
 |===========================================================================
 
-= About PetaGene
+== About PetaGene
 PetaGene started from a team of Cambridge University PhDs who were working to devise a novel approach to the problem of storing the rapidly growing data associated Genomics. Through Project PetaGene, they created the means to compress huge amounts of genomic data without compromising data quality. PetaGene's technology goes beyond normal storage data reduction techniques, using insight into the structure of Genomic Data to achieve its industry leading data reduction. For more information visit www.petagene.com or email sales@petagene.com
 
-= About NetApp
+== About NetApp
 NetApp is the data authority for hybrid cloud. We provide a full range of hybrid cloud data services that simplify management of data across cloud and on-premises environments to accelerate digital transformation. We empower global organizations to unleash the full potential of their data to expand customer touchpoints, foster greater innovation and optimize operations. For more information, visit: www.netapp.com #DataDriven
